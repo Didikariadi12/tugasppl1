@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    font-family: arial;
+}
+
+h3 {
+    text-align: center;
+    color: white;   
+}
+
+p a {
+    color: #00cc99;
+}
+
+p a:hover {
+    color:#00cc99;
+    text-decoration: none;
+}
+
+
+.logindanregister {
+    color: white;
+}
+
+.button {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 11px;
+    margin-top: 10px;
+    background-color: #00cc99;
+}
+
+.button:hover {
+    background-color: #008060;
+    color: white;
+}
+
+.table tr th {
+    margin-top: 25px;
+    background-color: #00cc99;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 5px
+}
+
+.table-container {
+    margin-bottom: 10;
+}
+
+table {
+    width: 100%;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+/* pagination */
+.pagination a {
+    color: black;
+}
+/* Mengubah warna tautan halaman aktif */
+.pagination .page-item.active .page-link {
+    background-color: #008060; /* Ganti dengan warna yang Anda inginkan */
+    border-color: #008060; /* Ganti dengan warna yang Anda inginkan */
+    color: white; /* Ganti dengan warna yang Anda inginkan */
+}
+
+
+
+
+
+/* media query */
+@media (max-width: 1200px){
+    
+}
+/* Laptop */
+@media (max-width: 992px){
+    html{
+        font-size: 75%;
+    }
+
+}
+/* Tablet */
+@media (max-width: 768px){
+    html{
+        font-size: 65%;
+    }
+    
+}
+/* Mobile Phone */
+@media (max-width: 576px){
+    html{
+        font-size: 60%;
+    }
+}
